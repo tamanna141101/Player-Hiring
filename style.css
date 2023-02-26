@@ -1,0 +1,70 @@
+header {
+
+    background-color: black;
+}
+
+.header-image1 img {
+    height: 350px;
+    width: 100%;
+    padding: 0 0 150px 0;
+
+}
+
+.header-image2 img {
+
+    height: auto;
+    width: 100%;
+    padding: 240px 0 0 0;
+
+
+
+}
+
+header h1 {
+    font-family: Berkshire Swash;
+    font-size: 66px;
+    font-weight: 900;
+    line-height: 94px;
+    letter-spacing: 0em;
+    color: #FF5E19;
+    ;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+}
+
+
+.card-bg {
+    background-color: black;
+}
+
+@media screen and (max-width: 480px){
+    .header-image1 img {   
+        display: none;
+    
+    }
+    
+    .header-image2 img {
+        padding: 0;
+        margin: 0;
+   
+    }
+    
+    header h1 {
+        
+        font-size: 35px;
+        line-height: 45px;
+        
+    }
+    
+    header p {
+        font-size: 12px;
+    }
+     
+}
